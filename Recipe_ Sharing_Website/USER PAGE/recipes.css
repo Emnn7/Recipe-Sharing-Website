@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light grey for a subtle background */
+    color: #333; /* Dark grey text for readability */
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Recipe Container Styling */
+#recipes-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Individual Recipe Styling */
+.recipe {
+    background-color: #ffffff; /* White background for a clean look */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    padding: 20px;
+    width: 90%; /* Adaptive width for small screens */
+    max-width: 800px; /* Limit the size for larger screens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Soft shadow for slight emphasis */
+    text-align: left;
+}
+
+/* Recipe Title */
+.recipe h2 {
+    color: #ff6600; /* Bright orange for a visually engaging title */
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center; /* Center-align the title */
+}
+
+/* Recipe Image Styling */
+.recipe img {
+    display: block;
+    margin: 0 auto 20px; /* Center the image and add space below */
+     /* Make the image responsive */
+    max-width: 600px; /* Limit the image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Subtle rounding for a modern touch */
+}
+
+/* Paragraph Styling */
+.recipe p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444; /* Slightly lighter grey for content text */
+    margin-bottom: 20px;
+}
+
+/* Unordered List (Ingredients, Nutrition Facts) */
+.recipe ul {
+    padding-left: 20px; /* Add some left padding for lists */
+    margin-bottom: 20px;
+}
+
+.recipe ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333; /* Dark grey for list items */
+}
+
+.recipe ul li strong {
+    color: #ff6600; /* Highlight important text in orange */
+}
+
+/* Ordered List (Directions) */
+.recipe ol {
+    counter-reset: step-counter; /* Custom counter for steps */
+    padding-left: 20px;
+}
+
+.recipe ol li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 30px; /* Space for custom step numbering */
+    color: #333;
+}
+
+
+
+/* Section Titles (Ingredients, Directions) */
+.recipe h3 {
+    font-size: 20px;
+    color: #ff6600; /* Orange for section headers */
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+/* Navigation Links */
+a {
+    color: #ff6600; /* Orange for links */
+    text-decoration: none; /* Remove underline for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for clarity */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .recipe {
+        width: 95%; /* Full width for smaller screens */
+    }
+
+    .recipe h2 {
+        font-size: 24px; /* Slightly smaller title for mobile */
+    }
+
+    .recipe p,
+    .recipe ol li,
+    .recipe ul li {
+        font-size: 14px; /* Adjust font size for mobile readability */
+    }
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/16.png);
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+.wrapper h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.wrapper .box{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 20px;
+    
+}
+.box .name{
+    display: flex;
+}
+.name .fn{
+    display: flex;
+    flex-direction: column;
+}
+.name .ln{
+    display: flex;
+    flex-direction: column;
+}
+.box label{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.box .name .fn input{
+    margin-right: 10px;
+}
+.box input{
+    outline: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.box textarea{
+    outline: none;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.box button{
+    margin-top: 25px;
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.box button:hover{
+    background-color: darkorange;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        text-align: center;
+    }
+}
+

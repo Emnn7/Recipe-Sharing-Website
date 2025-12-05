@@ -1,0 +1,187 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke; /* Dark Grey */
+    color: white;
+    line-height: 1.6;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.t2 {
+    margin-top: 100px;
+}
+
+/* Profile Container */
+.profile-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* Light Grey */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+.change-picture-btn {
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-details h1 {
+    font-size: 24px;
+    color: orange;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    color: grey;
+}
+
+.social-links a {
+    color: orange;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Stats */
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.stat h3 {
+    color: orange;
+}
+
+.stat p {
+    font-size: 24px;
+    margin: 5px 0;
+    color: grey;
+}
+
+/* Recipes Grid */
+.my-recipes, .saved-recipes {
+    margin-bottom: 20px;
+}
+ .my-recipes h2{
+    color: orange;
+ }
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+    
+    border-radius: 10px;
+}
+
+.recipe-card h3 {
+    color: orange;
+    margin-top: 10px;
+}
+.recipe-card p{
+    color: grey;
+}
+
+.edit-btn, .delete-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.recipe-card a{
+    color: grey;
+}
+
+.recipe-card a:hover{
+    color: orange;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    opacity: 0.8;
+}
+.saved-recipes h2,h3 {
+    color: orange;
+    margin-top: 10px;
+}
+.saved-recipes p{
+    color: grey;
+}
+
+/* Settings Section */
+.account-settings h2 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.account-settings button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.account-settings button:hover {
+    background-color: darkorange;
+    color: white;
+}
