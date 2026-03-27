@@ -46,8 +46,22 @@ This platform allows users to browse recipes, contribute their own, and manage f
 
 ---
 
-📸 Screenshots
-Homepage
+ 📸 Screenshots
+
+ Homepage
+![Homepage](./home-page.png)
+
+ Recipe List
+![Recipe List](./recipe-list.png)
+
+ Recipe Detail
+![Recipe Detail](./recipe-detail.png)
+
+ Submit Recipe
+![Submit Recipe](./submit-recipe.png)
+
+ Login 
+![Login](./login-page.png)
 
 
 
