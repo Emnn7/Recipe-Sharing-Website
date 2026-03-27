@@ -49,19 +49,19 @@ This platform allows users to browse recipes, contribute their own, and manage f
  📸 Screenshots
 
  Homepage
-![Homepage](./Recipe_Sharing_Website/home-page.png)
+![Homepage](./home-page.png)
 
  Recipe List
-![Recipe List](./Recipe_Sharing_Website/recipe-list.png)
+![Recipe List](./recipe-list.png)
 
  Recipe Detail
-![Recipe Detail](./Recipe_Sharing_Website/recipe-detail.png)
+![Recipe Detail](./recipe-detail.png)
 
  Submit Recipe
-![Submit Recipe](./Recipe_Sharing_Website/submit-recipe.png)
+![Submit Recipe](./submit-recipe.png)
 
  Login 
-![Login](./Recipe_Sharing_Website/login-page.png)
+![Login](./login-page.png)
 
 
 
